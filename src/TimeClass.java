@@ -19,13 +19,9 @@ public class TimeClass {
 class someClass {
     public static void main(String[] args) {
         TimeClass myTime = new TimeClass();
-        println("date: " + myTime.date);
-        println("time: " + myTime.time);
-        println("datetime: " + myTime.dateTime);
-        println("formatted output: " + myTime.dateTime.format(myTime.formatter));
-    }
-
-    static void println(Object input) {
-        System.out.println(input);
+        P.print("date: " + myTime.date);
+        P.print("time: " + myTime.time);
+        P.print("datetime: " + myTime.dateTime);
+        P.print("formatted output: " + myTime.dateTime.format(myTime.formatter));
     }
 }
