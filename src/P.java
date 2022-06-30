@@ -12,9 +12,6 @@ public class P {
         while(it.hasNext()) {
             print(it.next());
         }
-//        for (Object i : input) {
-//            System.out.println(i);
-//        }
     }
 
     public static void printList(HashMap input) {
